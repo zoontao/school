@@ -1,3 +1,6 @@
 /vendor/
 .DS_Store
 .git
+composer.lock
+.php_cs.cache
+.idea

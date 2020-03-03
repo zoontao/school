@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool\Events\OpenPlatform;
+namespace UnionSchool\Events\OpenPlatform;
 
 /**
  * @method string getAppId()

@@ -15,16 +15,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "ZoonTao\\UnionSchool\\": "src/"
+            "UnionSchool\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ZoonTao\\UnionSchool\\ServiceProvider"
+                "UnionSchool\\ServiceProvider"
             ],
             "aliases": {
-                "ZXT": "ZoonTao\\UnionSchool\\Facade"
+                "ZXT": "UnionSchool\\Facade"
             }
         }
     }

@@ -9,10 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool\Controllers;
+namespace UnionSchool\Controllers;
 
-use ZoonTao\UnionSchool\OpenPlatform\Application;
-use ZoonTao\UnionSchool\OpenPlatform\Server\Guard;
+use UnionSchool\OpenPlatform\Application;
+use UnionSchool\OpenPlatform\Server\Guard;
 use Overtrue\LaravelWeChat\Events\OpenPlatform as Events;
 
 class OpenPlatformController extends Controller

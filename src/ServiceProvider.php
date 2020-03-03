@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool;
+namespace UnionSchool;
 
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 
-use  ZoonTao\UnionSchool\App\Application as app;
+use  UnionSchool\App\Application as app;
 
 /**
  * Class ServiceProvider.

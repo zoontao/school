@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool\App;
+namespace UnionSchool\App;
 
-use ZoonTao\UnionSchool;
+use UnionSchool;
 
-class Common extends ZoonTao\UnionSchool\Common
+class Common extends UnionSchool\Common
 {
     protected $APP_ID;
     protected $APP_KEY;

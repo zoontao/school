@@ -1,7 +1,7 @@
 <?php
-namespace ZoonTao\UnionSchool\App\Info;
-use ZoonTao\UnionSchool\Common\Exceptions\Exception;
-use ZoonTao\UnionSchool\App\Common;
+namespace UnionSchool\App\Info;
+use UnionSchool\Common\Exceptions\Exception;
+use UnionSchool\App\Common;
 
 Class Add extends Common
 {
