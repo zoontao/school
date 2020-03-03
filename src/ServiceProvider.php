@@ -16,6 +16,8 @@ use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 
+use  UnionSchool\App\Application as app;
+
 /**
  * Class ServiceProvider.
  *
@@ -46,6 +48,7 @@ class ServiceProvider extends LaravelServiceProvider
         $this->mergeConfigFrom($source, 'school');
     }
 
+
     /**
      * Register the provider.
      */
@@ -54,7 +57,7 @@ class ServiceProvider extends LaravelServiceProvider
         $this->setupConfig();
 
         $apps = [
-            'official_account' => OfficialAccount::class,
+            'app' => app::class,
             'work' => Work::class,
             'mini_program' => MiniProgram::class,
             'payment' => Payment::class,
