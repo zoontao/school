@@ -1,0 +1,32 @@
+{
+    "name": "zoontao/school",
+    "description": "UnionSchool SDK",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bell",
+            "email": "zzz@zoontao.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ZoonTao\\UnionSchool\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZoonTao\\UnionSchool\\ServiceProvider"
+            ],
+            "aliases": {
+                "ZXT": "ZoonTao\\UnionSchool\\Facade"
+            }
+        }
+    }
+}
