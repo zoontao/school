@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool;
+namespace ZoonTao\School;
 
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 
-use  ZoonTao\UnionSchool\App\Application as app;
+use  ZoonTao\School\App\Application as app;
 
 /**
  * Class ServiceProvider.
@@ -97,10 +97,10 @@ class ServiceProvider extends LaravelServiceProvider
                 });
             }
             $this->app->alias("school.{$name}.default", 'school.'.$name);
-            $this->app->alias("school.{$name}.default", 'unionschool.'.$name);
+            $this->app->alias("school.{$name}.default", 'school.'.$name);
 
             $this->app->alias('school.'.$name, $class);
-            $this->app->alias('unionschool.'.$name, $class);
+            $this->app->alias('school.'.$name, $class);
         }
     }
 

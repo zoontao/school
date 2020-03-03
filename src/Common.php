@@ -1,5 +1,5 @@
 <?php
-namespace ZoonTao\UnionSchool;
+namespace ZoonTao\School;
 /*
  * This file is part of the ZXT.
  *

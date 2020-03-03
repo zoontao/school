@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool\App\Oauth;
+namespace ZoonTao\School\App\Oauth;
 
-use ZoonTao\UnionSchool\Common\Exceptions\Exception;
-use ZoonTao\UnionSchool\App\Common;
-use ZoonTao\UnionSchool\Common\Tools\Str;
+use ZoonTao\School\Common\Exceptions\Exception;
+use ZoonTao\School\App\Common;
+use ZoonTao\School\Common\Tools\Str;
 
 class Service extends Common
 {

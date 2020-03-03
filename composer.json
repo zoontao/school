@@ -1,6 +1,6 @@
 {
     "name": "zoontao/school",
-    "description": "UnionSchool SDK",
+    "description": "School SDK",
     "type": "library",
     "require": {
         "php": "^7.2"
@@ -15,16 +15,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "ZoonTao\\UnionSchool\\": "src/"
+            "ZoonTao\\School\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ZoonTao\\UnionSchool\\ServiceProvider"
+                "ZoonTao\\School\\ServiceProvider"
             ],
             "aliases": {
-                "ZXT": "ZoonTao\\UnionSchool\\Facade"
+                "ZXT": "ZoonTao\\School\\Facade"
             }
         }
     }

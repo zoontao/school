@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool\Controllers;
+namespace ZoonTao\School\Controllers;
 
 use Barryvdh\Debugbar\LaravelDebugbar;
 
