@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\School\Events;
+namespace ZoonTao\UnionSchool\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Overtrue\Socialite\User;

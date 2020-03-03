@@ -1,7 +1,7 @@
 <?php
-namespace ZoonTao\School\App\Info;
-use ZoonTao\School\Common\Exceptions\Exception;
-use ZoonTao\School\App\Common;
+namespace ZoonTao\UnionSchool\App\Info;
+use ZoonTao\UnionSchool\Common\Exceptions\Exception;
+use ZoonTao\UnionSchool\App\Common;
 
 Class Edit extends Common
 {

@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\School\Middleware;
+namespace ZoonTao\UnionSchool\Middleware;
 
 use Closure;
 use http\Env\Request;
 use Illuminate\Support\Arr;
-use ZoonTao\School\Events\WeChatUserAuthorized;
+use ZoonTao\UnionSchool\Events\WeChatUserAuthorized;
 
 /**
  * Class OAuthAuthenticate: 微信公众号, 企业微信的网页应用。

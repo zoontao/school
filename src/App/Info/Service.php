@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\School\App\Info;
+namespace ZoonTao\UnionSchool\App\Info;
 
-use ZoonTao\School\Common\Exceptions\Exception;
-use ZoonTao\School\App\Common;
-use ZoonTao\School\Common\Tools\Str;
+use ZoonTao\UnionSchool\Common\Exceptions\Exception;
+use ZoonTao\UnionSchool\App\Common;
+use ZoonTao\UnionSchool\Common\Tools\Str;
 use think\Db;
 
 class Service extends Common
@@ -75,7 +75,7 @@ class Service extends Common
     public function __call($method, $arguments)
     {
         $namespace = Str::studly($method);
-        $Service = "\\ZoonTao\School\\APP\\Info\\{$namespace}";
+        $Service = "\\ZoonTao\UnionSchool\\APP\\Info\\{$namespace}";
         return new $Service($this->sid);
     }
 }

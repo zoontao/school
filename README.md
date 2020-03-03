@@ -6,14 +6,14 @@
 ### 在 config/app.php 注册 ServiceProvider 和 Facade 
 'providers' => [
     // ...
-    ZoonTao\School\ServiceProvider::class,
+    ZoonTao\UnionSchool\ServiceProvider::class,
 ],
 'aliases' => [
     // ...
-    'ZXT' => ZoonTao\School\Facade::class,
+    'ZXT' => ZoonTao\UnionSchool\Facade::class,
 ],
 
 
 ### 创建配置文件： 
 
-php artisan vendor:publish --provider="ZoonTao\School\ServiceProvider"
+php artisan vendor:publish --provider="ZoonTao\UnionSchool\ServiceProvider"

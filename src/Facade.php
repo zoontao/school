@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTaotao\School;
+namespace ZoonTao\UnionSchool;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 
@@ -31,7 +31,7 @@ class Facade extends LaravelFacade
     }
 
     /**
-     * @return \ZoonTaotao\School\App\Application
+     * @return \ZoonTao\UnionSchool\App\Application
      */
     public static function app($sid = '')
     {
