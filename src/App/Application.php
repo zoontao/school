@@ -27,8 +27,8 @@ class Application
     }
 
     public function test(){
-        
-        return "app test";
+
+        return "app tests";
     }
     /**
      * @return Info\Service
