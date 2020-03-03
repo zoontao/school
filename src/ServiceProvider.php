@@ -16,7 +16,7 @@ use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 
-use  UnionSchool\App\Application as app;
+use  ZoonTao\UnionSchool\App\Application as app;
 
 /**
  * Class ServiceProvider.
