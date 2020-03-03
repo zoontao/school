@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool;
+namespace \ZoonTao\UnionSchool;
 
 
 use Illuminate\Foundation\Application as LaravelApplication;

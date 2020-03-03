@@ -1,9 +1,9 @@
 <?php
 
-namespace UnionSchool\App\Info;
+namespace ZoonTao\UnionSchool\App\Info;
 
-use UnionSchool\Common\Exceptions\Exception;
-use UnionSchool\App\Common;
+use ZoonTao\UnionSchool\Common\Exceptions\Exception;
+use ZoonTao\UnionSchool\App\Common;
 use think\Db;
 
 class Delete extends Common

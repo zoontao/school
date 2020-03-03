@@ -8,11 +8,11 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-namespace UnionSchool\App;
+namespace ZoonTao\UnionSchool\App;
 
 
 
-use UnionSchool\Common\Tools\Str;
+use ZoonTao\UnionSchool\Common\Tools\Str;
 
 class Application
 {
@@ -56,7 +56,7 @@ class Application
     public function __call($method, $arguments)
     {
         $namespace = Str::studly($method);
-        $Service = "\\UnionSchool\\APP\\{$namespace}\\Service";
+        $Service = "\\ZoonTao\UnionSchool\\APP\\{$namespace}\\Service";
         return new $Service($this->sid);
     }
 }

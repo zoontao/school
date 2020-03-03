@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ZoonTao\UnionSchool;
+namespace Zoontao\UnionSchool;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 
@@ -31,11 +31,11 @@ class Facade extends LaravelFacade
     }
 
     /**
-     * @return \Easyschool\OfficialAccount\Application
+     * @return \Zoontao\UnionSchool\App\Application
      */
-    public static function officialAccount($name = '')
+    public static function app($sid = '')
     {
-        return $name ? app('school.official_account.'.$name) : app('school.official_account');
+        return $sid ? app('school.official_account.'.$sid) : app('school.official_account');
     }
 
     /**
